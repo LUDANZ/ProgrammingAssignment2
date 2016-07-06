@@ -1,8 +1,7 @@
-## this pair of function can create a special object that stores 
-## the a matrix and caches its Inverse matrix.
+## this pair of function can create a special object that stores a matrix 
+## and caches its Inverse matrix.
 
-## The first function, makeCacheMatrix creates a list containing 
-## a function to
+## the first function, makeCacheMatrix creates a list containing a function to
 
 ## 1.set the value of the matrix
 ## 2.get the value of the matrix
@@ -24,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## the second function can check if there is a cache of the inverse 
+## the second function cacheSolve can check if there is a cache of the inverse 
 ## already at first. If so, it gets the inverse from the cache and 
 ## skips the computation. Otherwise, the function can calculate the 
 ## inverse of the given matrix and save the value of inverse in 
